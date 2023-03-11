@@ -19,7 +19,7 @@
     <div class="container-fluid mt-4">
         <div class="row">
             <div class="col-12 text-center">
-                <p class="pt-3 abm needtoMask">{{abm}}</p><br><small
+                <p class="pt-3 abm needtoMask" *ngIf="abm">{{abm}}</p><br><small
                     class="text-muted needtoMask update mb-2">{{updateInfo}}</small>
                 <div class="jumbotron">
                     <div class="avatar"><img src="img/ChienDG_avatar.jpg" class="img-fluid" alt="Avatar">
