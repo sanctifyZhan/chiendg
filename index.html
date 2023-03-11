@@ -47,7 +47,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-12 col-md-6">
-                                <h4 class="jobh4 p-1 mb-2">{{cv}}</h4>
+                                <h4 class="jobh4 p-1 mb-2" *ngIf="cv">{{cv}}</h4>
                                 <div class="job_content">
                                     <p><span class="ion-ios-world-outline" style="font-size:15pt"></span> {{job1}}</p>
                                     <p><span class="ion-social-usd"></span> {{job2}}</p>
