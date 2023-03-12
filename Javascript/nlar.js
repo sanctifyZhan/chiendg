@@ -7,7 +7,7 @@ app.controller('myController', function ($scope) {
 	$scope.cv = "Work";
 	$scope.job1 = "Chiendg.com";
 	$scope.job2 = "CHIEN DG";
-	$scope.job3 = "Angles.info";
+	$scope.job3 = "Donate/ChienDG";
 	$scope.contact = "Contact";
 	$scope.contact1 = "chienbrseworld@gmail.com";
 	$scope.contact2 = "fb.com/chiendgs";
