@@ -1,15 +1,16 @@
 var app = angular.module('myApp', []);
 app.controller('myController', function ($scope) {
-	$scope.abm = "About Me";
-	$scope.updateInfo = "Updated 20 minuted ago";
+	$scope.abm = "ChienDG Information";
+	$scope.updateInfo = "Updated 30 days ago";
 	$scope.verify = "Verify";
-	$scope.des = "Description about me !";
+	$scope.des = "Try hard or go home !";
 	$scope.cv = "Work";
 	$scope.job1 = "Chiendg.com";
-	$scope.job2 = "Angles.info";
+	$scope.job2 = "CHIEN DG";
+	$scope.job3 = "Angles.info";
 	$scope.contact = "Contact";
 	$scope.contact1 = "chienbrseworld@gmail.com";
-	$scope.contact2 = "fb.com/chiendg";
+	$scope.contact2 = "fb.com/chiendgs";
 	$scope.contactmi = "CONTACT US";
 	$scope.ifyou = "People from all over the world started contacting me!";
 	$scope.modal1 = "Facebook";
@@ -30,7 +31,7 @@ app.controller('myController', function ($scope) {
 	$scope.storytitle2 = "Lời hứa của tôi với bản thân và mọi người trong hai năm qua ...";
 	$scope.nothinglikeus = "Thank for watching";
 	$scope.thankall = "Cảm ơn mọi người đã ủng hộ";
-	$scope.au = "Lmint";
+	$scope.au = "ChienDG";
 	$scope.phone = false;
 	$scope.reverse = function () {
 		$scope.phone = !$scope.phone;
