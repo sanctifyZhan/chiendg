@@ -31,7 +31,7 @@ app.controller('myController', function ($scope) {
 	$scope.storytitle2 = "Lời hứa của tôi với bản thân và mọi người trong hai năm qua ...";
 	$scope.nothinglikeus = "Thank for watching";
 	$scope.thankall = "Cảm ơn mọi người đã ủng hộ";
-	$scope.au = "ChienDG";
+	$scope.au = "ChienDG"; 
 	$scope.phone = false;
 	$scope.reverse = function () {
 		$scope.phone = !$scope.phone;
